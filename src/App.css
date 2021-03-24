@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=PT+Sans:ital@0;1&family=Roboto+Condensed:ital,wght@1,300&display=swap");
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-image: url("./Asset/Virgin-America.jpg");
+  height: 100vh;
+  /* min-height: max-content; */
+}
+.master_div {
+  margin-top: 50px;
+}
+.button-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+.submit-div {
+  margin-top: 30px;
+}
+.header-div {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.options-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+.ul-list {
+  list-style: none;
+}
+li {
+  margin-top: 10px;
+}
+.option-a,
+.option-b,
+.option-c,
+.option-d,
+.option-e {
+  font-size: 1.5rem;
+  font-family: "Inconsolata", monospace;
+  font-weight: 400;
+  color: white;
+}
+
+.previous-btn {
+  display: none;
+}
+.previous-btn1 {
+  display: initial;
+}
+.h1 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 3rem;
+  color: white;
+}
+.questionHead-tag {
+  font-family: "PT Sans", sans-serif;
+  font-size: 2rem;
+  color: white;
+}
+.question-tag {
+  font-family: "PT Sans", sans-serif;
+  font-size: 1.5rem;
+  color: white;
+}
+button {
+  padding: 5px 50px;
+  border: 2px solid #926dde;
+  border-radius: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: transparent;
+  letter-spacing: 4px;
+}
+button:hover {
+  background-color: #926dde;
+  border-color: black;
+  color: floralwhite;
+}
+.next-btn {
+  margin-left: 100px;
+}
+input {
+  color: black;
+  border-color: black;
+  cursor: pointer;
+}
+.submit-btn {
+  padding-left: 15rem;
+  padding-right: 15rem;
+}
+.icon2 {
+  color: red;
+}
