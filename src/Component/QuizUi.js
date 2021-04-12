@@ -29,7 +29,7 @@ const Quiz = ({
           <li>
             <input
               type="radio"
-              name="option"
+              name="option1"
               onInput={handleInput}
               value={Questions[index].Options.a}
             />
@@ -38,7 +38,7 @@ const Quiz = ({
           <li>
             <input
               type="radio"
-              name="option"
+              name="option2"
               onInput={handleInput}
               value={Questions[index].Options.b}
             />
@@ -47,7 +47,7 @@ const Quiz = ({
           <li>
             <input
               type="radio"
-              name="option"
+              name="option3"
               onInput={handleInput}
               value={Questions[index].Options.c}
             />
@@ -56,7 +56,7 @@ const Quiz = ({
           <li>
             <input
               type="radio"
-              name="option"
+              name="option4"
               onInput={handleInput}
               value={Questions[index].Options.d}
             />
@@ -65,7 +65,7 @@ const Quiz = ({
           <li>
             <input
               type="radio"
-              name="option"
+              name="option5"
               onInput={handleInput}
               value={Questions[index].Options.e}
             />
